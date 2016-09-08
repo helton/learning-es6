@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/babel-tests.es6"],"names":["exports","run","value","console","log"],"mappings":";;AAAAA,QAAQC,GAAR,GAAc,YAAY;AACxB,MAAIC,QAAQ,EAAZ;AACAC,UAAQC,GAAR,oBAA6BF,KAA7B;AACD,CAHD","file":"babel-tests.js","sourcesContent":["exports.run = function () {\r\n  let value = 42;\r\n  console.log(`The answer is ${value}`);\r\n};\r\n"]}

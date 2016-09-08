@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.es6"],"names":[],"mappings":";;AACA;;AAEA,uB,CAHA","file":"index.js","sourcesContent":["//import { run } from './const-declarations';\nimport { run } from './babel-tests';\n\nrun();\n"]}
