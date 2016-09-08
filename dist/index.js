@@ -20,9 +20,13 @@ var _spreadOperator = require('./spread-operator');
 
 var spreadOperator = _interopRequireWildcard(_spreadOperator);
 
+var _shorthandProperties = require('./shorthand-properties');
+
+var shorthandProperties = _interopRequireWildcard(_shorthandProperties);
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
-var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }];
+var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }, { name: 'shorthand properties', value: shorthandProperties }];
 
 modules.forEach(function (module) {
   console.log('-----------------------------');

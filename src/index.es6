@@ -3,13 +3,15 @@ import * as babelTests from './babel-tests';
 import * as modulesImportExport from './modules-import-export';
 import * as objectEnhancements from './object-enhancements';
 import * as spreadOperator from './spread-operator';
+import * as shorthandProperties from './shorthand-properties'
 
 let modules = [
   { name: 'const declarations', value: constDeclarations },
   { name: 'babel tests', value: babelTests },
   { name: 'modules import export', value: modulesImportExport },
   { name: 'object enhancements', value: objectEnhancements },
-  { name: 'spread operator', value: spreadOperator }
+  { name: 'spread operator', value: spreadOperator },
+  { name: 'shorthand properties', value: shorthandProperties }
 ];
 
 modules.forEach(module => {
