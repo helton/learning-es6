@@ -5,6 +5,7 @@ import * as objectEnhancements from './object-enhancements';
 import * as spreadOperator from './spread-operator';
 import * as shorthandProperties from './shorthand-properties'
 import * as generatorBasics from './generator-basics';
+import * as stringTemplates from './string-templates';
 
 let modules = [
   { name: 'const declarations', value: constDeclarations },
@@ -13,7 +14,8 @@ let modules = [
   { name: 'object enhancements', value: objectEnhancements },
   { name: 'spread operator', value: spreadOperator },
   { name: 'shorthand properties', value: shorthandProperties },
-  { name: 'generator basics', value: generatorBasics }
+  { name: 'generator basics', value: generatorBasics },
+  { name: 'string templates', value: stringTemplates }
 ];
 
 modules.forEach(module => {

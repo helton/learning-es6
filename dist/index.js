@@ -28,9 +28,13 @@ var _generatorBasics = require('./generator-basics');
 
 var generatorBasics = _interopRequireWildcard(_generatorBasics);
 
+var _stringTemplates = require('./string-templates');
+
+var stringTemplates = _interopRequireWildcard(_stringTemplates);
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
-var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }, { name: 'shorthand properties', value: shorthandProperties }, { name: 'generator basics', value: generatorBasics }];
+var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }, { name: 'shorthand properties', value: shorthandProperties }, { name: 'generator basics', value: generatorBasics }, { name: 'string templates', value: stringTemplates }];
 
 modules.forEach(function (module) {
   console.log('-----------------------------');
