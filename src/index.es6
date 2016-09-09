@@ -7,6 +7,7 @@ import * as shorthandProperties from './shorthand-properties'
 import * as generatorBasics from './generator-basics';
 import * as stringTemplates from './string-templates';
 import * as destructuringAssignment from './destructuring-assignment';
+import * as defaultParameters from './default-parameters';
 
 let modules = [
   { name: 'const declarations', value: constDeclarations },
@@ -17,7 +18,8 @@ let modules = [
   { name: 'shorthand properties', value: shorthandProperties },
   { name: 'generator basics', value: generatorBasics },
   { name: 'string templates', value: stringTemplates },
-  { name: 'destructuring assignment', value: destructuringAssignment }
+  { name: 'destructuring assignment', value: destructuringAssignment },
+  { name: 'default parameters', value: defaultParameters }
 ];
 
 modules.forEach(module => {

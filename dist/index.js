@@ -36,9 +36,13 @@ var _destructuringAssignment = require('./destructuring-assignment');
 
 var destructuringAssignment = _interopRequireWildcard(_destructuringAssignment);
 
+var _defaultParameters = require('./default-parameters');
+
+var defaultParameters = _interopRequireWildcard(_defaultParameters);
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
-var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }, { name: 'shorthand properties', value: shorthandProperties }, { name: 'generator basics', value: generatorBasics }, { name: 'string templates', value: stringTemplates }, { name: 'destructuring assignment', value: destructuringAssignment }];
+var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }, { name: 'shorthand properties', value: shorthandProperties }, { name: 'generator basics', value: generatorBasics }, { name: 'string templates', value: stringTemplates }, { name: 'destructuring assignment', value: destructuringAssignment }, { name: 'default parameters', value: defaultParameters }];
 
 modules.forEach(function (module) {
   console.log('-----------------------------');
