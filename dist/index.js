@@ -32,9 +32,13 @@ var _stringTemplates = require('./string-templates');
 
 var stringTemplates = _interopRequireWildcard(_stringTemplates);
 
+var _destructuringAssignment = require('./destructuring-assignment');
+
+var destructuringAssignment = _interopRequireWildcard(_destructuringAssignment);
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
-var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }, { name: 'shorthand properties', value: shorthandProperties }, { name: 'generator basics', value: generatorBasics }, { name: 'string templates', value: stringTemplates }];
+var modules = [{ name: 'const declarations', value: constDeclarations }, { name: 'babel tests', value: babelTests }, { name: 'modules import export', value: modulesImportExport }, { name: 'object enhancements', value: objectEnhancements }, { name: 'spread operator', value: spreadOperator }, { name: 'shorthand properties', value: shorthandProperties }, { name: 'generator basics', value: generatorBasics }, { name: 'string templates', value: stringTemplates }, { name: 'destructuring assignment', value: destructuringAssignment }];
 
 modules.forEach(function (module) {
   console.log('-----------------------------');

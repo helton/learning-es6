@@ -6,6 +6,7 @@ import * as spreadOperator from './spread-operator';
 import * as shorthandProperties from './shorthand-properties'
 import * as generatorBasics from './generator-basics';
 import * as stringTemplates from './string-templates';
+import * as destructuringAssignment from './destructuring-assignment';
 
 let modules = [
   { name: 'const declarations', value: constDeclarations },
@@ -15,7 +16,8 @@ let modules = [
   { name: 'spread operator', value: spreadOperator },
   { name: 'shorthand properties', value: shorthandProperties },
   { name: 'generator basics', value: generatorBasics },
-  { name: 'string templates', value: stringTemplates }
+  { name: 'string templates', value: stringTemplates },
+  { name: 'destructuring assignment', value: destructuringAssignment }
 ];
 
 modules.forEach(module => {
