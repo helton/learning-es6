@@ -10,6 +10,7 @@ import * as stringTemplates from './string-templates';
 import * as destructuringAssignment from './destructuring-assignment';
 import * as defaultParameters from './default-parameters';
 import * as arrowFunctions from './arrow-functions';
+import * as letKeyword from './let-keyword';
 
 let modules = [
   { name: 'const declarations', value: constDeclarations },
@@ -22,7 +23,8 @@ let modules = [
   { name: 'string templates', value: stringTemplates },
   { name: 'destructuring assignment', value: destructuringAssignment },
   { name: 'default parameters', value: defaultParameters },
-  { name: 'arrow functions', value: arrowFunctions }
+  { name: 'arrow functions', value: arrowFunctions },
+  { name: 'let keyword', value: letKeyword }
 ];
 
 modules.forEach(({name: moduleName, value: module}, index) => {
