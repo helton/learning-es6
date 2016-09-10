@@ -39,10 +39,11 @@ exports.run = function () {
     return console.log("I'm done!");
   });
 
+  var defaultOnComplete = function defaultOnComplete() {
+    return console.log("default function arg");
+  };
   receive = function receive() {
-    var onComplete = arguments.length <= 0 || arguments[0] === undefined ? function () {
-      return console.log("default function arg");
-    } : arguments[0];
+    var onComplete = arguments.length <= 0 || arguments[0] === undefined ? defaultOnComplete : arguments[0];
     return onComplete();
   }; //crazy!
   receive();

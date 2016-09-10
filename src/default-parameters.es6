@@ -28,7 +28,7 @@ exports.run = () => {
   };
   receive(() => console.log("I'm done!"));
 
-  receive = (onComplete = () => console.log("default function arg"))
-    => onComplete(); //crazy!
+  let defaultOnComplete = () => console.log("default function arg");
+  receive = (onComplete = defaultOnComplete) => onComplete(); //crazy!
   receive();
 };
